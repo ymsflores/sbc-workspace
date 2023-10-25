@@ -8,7 +8,7 @@ echo "Solana and Rust are installed!"
 
 # Install node dependencies
 npm install
-npm install -g tsx node-ts
+npm install -g tsx ts-node
 
 # Run this commands after
 # export PATH="/home/codespace/.local/share/solana/install/active_release/bin:$PATH"
