@@ -17,3 +17,11 @@ npm install -g tsx ts-node
 # Try this command to check
 # solana --version
 # cargo --version
+
+# install anchor
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+avm install latest
+avm use latest
+
+# verify the installation
+# anchor --version

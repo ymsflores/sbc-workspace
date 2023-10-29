@@ -18,6 +18,7 @@ async function main() {
         new Web3.Transaction().add(instruction),
         [Web3.Keypair.fromSecretKey(base58.decode('3PxcsrsGjjocSkGprAGG6N4Tx5HoWAyiMVGbppS54Y6S2h31QUH2Z2iiMW1AatQNzMXECE8MQQ1GenXbdPw5Sy43'))]
     )
+    
     console.log('SIGNATURE', signature)
 }
 
